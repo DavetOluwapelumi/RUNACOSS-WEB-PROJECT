@@ -121,6 +121,16 @@
       <p class="footer-text">&copy; RUNACOSS 2024</p>
     </footer>
 
-    <!-- <script src="js/bootstrap.bundle.js"></script> -->
+    <script>
+      const hamBurger = document.querySelector(".hamburger");
+      // const runacossIMG =
+      const navList = document.querySelector(".list-container");
+      hamBurger.addEventListener("click", () => {
+        hamBurger.classList.toggle("active");
+        navList.classList.toggle("active");
+      });
+      let slideIndex = 0;
+      showSlides();
+    </script>
   </body>
 </html>
