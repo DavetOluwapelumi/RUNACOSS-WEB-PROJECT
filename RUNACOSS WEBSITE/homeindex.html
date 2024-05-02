@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="css/bootstrap.css" /> -->
+    <link rel="stylesheet" href="./stlyes.css" />
+  </head>
+  <body>
+    <header>
+      <section class="header">
+        <img src="./Logo.png" alt="" />
+        <img class="runacoss-IMG" src="./runacoss-logo.png" alt="" />
+        <nav>
+          <ul class="list-container">
+            <li class="nav-list">
+              <a class="nav-link" href="./homeindex.html">Home</a>
+            </li>
+            <li class="nav-list">
+              <a class="nav-link" href="./registration.html">Registration</a>
+            </li>
+            <li class="nav-list">
+              <a class="nav-link" href="./timetable.html">Time Table</a>
+            </li>
+          </ul>
+        </nav>
+        <!-- <div class="off-menu-nav">
+
+        </div> -->
+        <div class="hamburger">
+          <span class="h"></span>
+          <span></span>
+          <span></span>
+        </div>
+      </section>
+    </header>
+    <section>
+      <article class="header-img" id="heading">
+        <div>
+          <h1 class="article-heading">
+            Welcome to Redeemer's University Association Computer Science
+            Students
+          </h1>
+          <p><i style="font-weight: 700">...running with a vision</i></p>
+        </div>
+      </article>
+    </section>
+
+    <main>
+      <aside>
+        <nav>
+          <ul>
+            <li><a href="registration.html">REGISTRATION</a></li>
+            <li><a href="timetable.html">TIME TABLE</a></li>
+            <li><a href="#">SPORTS</a></li>
+            <li><a href="#">COMMUNITIES</a></li>
+            <li><a href="#">ACCOMODATION</a></li>
+          </ul>
+        </nav>
+      </aside>
+      <section>
+        <article class="history-article">
+          <h2>HISTORY OF RUNACOSS</h2>
+          <p>
+            <span>Once</span> upon a time, in the mystical land of Academia,
+            there stood a university known as Runacoss Redeemer's University.
+            Founded in the era when computers were still hailed as arcane
+            marvels, the university quickly became a bastion of knowledge in the
+            realm of Computer Science.
+          </p>
+          <p>
+            <span>Legend</span> has it that the RUNACOSS was founded eons ago by
+            the legendary hacker and sage, Technos the Wise. It is said that
+            Technos stumbled upon the secrets of computing while wandering
+            through the enchanted forests of Runacoss, where he encountered a
+            mystical computing device known as the Binary Oracle.
+          </p>
+          <p>
+            <span>Their</span> quest led them deep into the heart of the
+            university's labyrinthine halls, where they encountered countless
+            trials and challenges. From deciphering cryptic code to battling the
+            fearsome bugs of legend, the members of RUNACOSS forged bonds
+            stronger than the strongest encryption algorithms.
+          </p>
+          <p>
+            <span>Through</span> their trials and tribulations, RUNACOSS emerged
+            as a beacon of knowledge and camaraderie within the university. They
+            hosted grand symposiums where the brightest minds in Computer
+            Science would gather to share their wisdom and insights. They
+            organized coding competitions that pushed the boundaries of what was
+            thought possible in the realm of programming.
+          </p>
+          <p>
+            <span>But</span> perhaps the greatest achievement of RUNACOSS was
+            the creation of the legendary "Code of Conduct," a sacred tome that
+            laid out the principles and ethics of coding for generations to
+            come. It is said that those who follow its teachings are blessed
+            with clean, efficient code and protected from the dreaded curse of
+            spaghetti code.
+          </p>
+          <p>
+            <span>As</span> the centuries passed, the legacy of RUNACOSS only
+            grew stronger, inspiring countless generations of Computer Science
+            students to push the boundaries of knowledge and innovation. And
+            though the Binary Bard and their companions have long since passed
+            into legend, their spirit lives on in the halls of Runacoss
+            Redeemer's University, where the quest for knowledge never ends.
+          </p>
+        </article>
+      </section>
+    </main>
+
+    <footer>
+      <p class="footer-text">&copy; RUNACOSS 2024</p>
+    </footer>
+
+    <script>
+      const hamBurger = document.querySelector(".hamburger");
+      // const runacossIMG =
+      const navList = document.querySelector(".list-container");
+      hamBurger.addEventListener("click", () => {
+        hamBurger.classList.toggle("active");
+        navList.classList.toggle("active");
+      });
+      let slideIndex = 0;
+      showSlides();
+    </script>
+  </body>
+</html>
